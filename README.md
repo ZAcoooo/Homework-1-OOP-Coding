@@ -1,7 +1,7 @@
 # Homework-1-OOP-Coding
 Homework 1 for CS 5010<br>
 The PromptManager is used for recording prompts and responses during interacting with the ChatGPT.<br>
-Author: Qichen Wang
+**Author: Qichen Wang**
 
 ## Creative addition
 I added a Favorite functionality. The user can choose which interactions they want to toggle favorite or not favorite by the index. When the interactions are showed, it will also show whether the interaction is favorite or not.
