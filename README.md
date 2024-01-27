@@ -4,7 +4,7 @@ The PromptManager is used for recording prompts and responses during interacting
 Author: Qichen Wang
 
 ## Creative addition
-I added a Favorite function. The user can choose which interactions they want to toggle favorite or not favorite by the index. When the interactions are showed, it will also show whether the interaction is favorite or not.
+I added a Favorite functionality. The user can choose which interactions they want to toggle favorite or not favorite by the index. When the interactions are showed, it will also show whether the interaction is favorite or not.
 
 ## Testing
 I created a test.js file for Testing. It tested recordPrompt and recordDalleInteraction functions. It also tested remove a interaction by the index and switch favorite by the index. Finally, it tested showing all interactions.
