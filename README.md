@@ -11,8 +11,9 @@ I created a test.js file for Testing. It tested recordPrompt and recordDalleInte
 
 ### Steps for running test.js file
 1. Switch to the current directory in the terminal.
-2. Enter ```node test.js``` in the terminal.
-3. It will show the below information in the terminal:
+2. Enter ```npm install``` in the terminal.
+3. Enter ```node test.js``` in the terminal.
+4. It will show the below information in the terminal:
 ```
 Interaction has been switch to favorite.
 Interaction has been switch to favorite.
