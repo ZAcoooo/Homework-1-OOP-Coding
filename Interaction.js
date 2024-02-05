@@ -2,6 +2,7 @@ class Interaction {
   prompt = "";
   response = "";
   isFavorite = false; // indicate whether this interaction is your favorite
+  Dalle = false;
   constructor(prompt, response) {
     this.prompt = prompt;
     this.response = response;
@@ -11,6 +12,10 @@ class Interaction {
     console.log(`Prompt: ${this.prompt.substring(0, 50)}...`);
     console.log(`Response: ${this.response.substring(0, 50)}...`);
     console.log(`Favorite: ${this.isFavorite ? "Yes" : "No"}.`); // output whether favorite
+  }
+
+  isDalle() {
+    return this.Dalle;
   }
 
   // switch the current interaction's favorite status
