@@ -4,6 +4,7 @@ class DalleInteraction extends Interaction {
   constructor(prompt, response, url) {
     super(prompt, response);
     this.url = url;
+    this.Dalle = true;
   }
 
   show() {
